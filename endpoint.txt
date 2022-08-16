@@ -1,0 +1,4 @@
+$ kubectl get services simple-jwt-api -o wide
+NAME             TYPE           CLUSTER-IP       EXTERNAL-IP                                                               PORT(S)        AGE     SELECTOR
+simple-jwt-api   LoadBalancer   10.100.179.105   ab0d15e8730c24831bb349785086f31c-1696992247.us-east-2.elb.amazonaws.com   80:30841/TCP   6m36s   app=simple-jwt-api
+
